@@ -208,6 +208,8 @@ li{
     justify-items: center;
     background-color: white;
     flex-direction: column;  
+    padding: 100px;
+
 }
 
 .actionbox{
@@ -218,9 +220,10 @@ li{
   box-shadow: 2px 4px 16px #1F2937;
   display: flex;
   align-items: left;
-  justify-content: left;
+  justify-content: space-between;
   flex-direction: row;
-  padding: 35px;
+  padding:30px;
+  gap: 100px;
 
 }
 
@@ -229,6 +232,7 @@ li{
   align-items: left;
   justify-content: left;
   flex-direction: column;
+  
 }
 .actiontextbold{
   color: white;
@@ -247,9 +251,11 @@ a {
     justify-content: right;
     background-color: #3882F6;
     flex-shrink: 0;
-    padding: 40px;
     min-width: 40px;
     max-width: 100px;
+    height: 35px;
+    width: 100px;
+    padding: 4px;
     border-radius: 8px;
     border-color: white;
     color: white;
